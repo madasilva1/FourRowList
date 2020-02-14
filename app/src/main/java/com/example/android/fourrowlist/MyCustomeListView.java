@@ -23,7 +23,7 @@ public class MyCustomeListView extends ListActivity {
                 list,
                 R.layout.row_layout,
                 new String[] {"pen","price","color"},
-                new int[] {R.id.FirstText,R.id.SecondText, R.id.ThirdText}
+                new int[] {R.id.FirstText,R.id.SecondText, R.id.ThirthText,R.id.listRowTextView}
 
         );
 
@@ -39,9 +39,9 @@ public class MyCustomeListView extends ListActivity {
 
     private void populateList() {
         HashMap<String,String> temp = new HashMap<String,String>();
-        temp.put("pen","MontBlanck");
-        temp.put("pen","MONT Blanc");
-        temp.put("price", "200.00$");
+
+        temp.put("pen","Mont Blanc");
+        temp.put("price", "$200.00");
         temp.put("color", "Silver, Grey, Black");
         list.add(temp);
         HashMap<String,String> temp1 = new HashMap<String,String>();

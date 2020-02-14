@@ -15,6 +15,7 @@
     </TextView>
 
     <TextView
+
         android:id="@+id/SecondText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -23,23 +24,19 @@
     </TextView>
 
     <TextView
-        android:id="@+id/ThirdText"
+        android:id="@+id/ThirthText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Third"
         android:layout_weight="1">
     </TextView>
-
-    <TextView
-        android:id="@+id/FourthText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Fourth"
-        android:layout_weight="1">
-    </TextView>
     <ListView
         android:id="@+id/android:list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:headerDividersEnabled="true"
         />
+
+
+
 </LinearLayout>
